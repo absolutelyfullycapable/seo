@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        <title>주식회사 세오</title>
+        <!-- font -->
+        <link href='https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!-- css -->
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        <!-- JS/jQuery -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-ui-dist@1.12.1/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/4.1.0/dotdotdot.js"></script>
+        <script src="js/swiper.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <h1><a href="index.html">SEO</a></h1> <!-- SEO logo -->
+                <nav>
+                    <ul>
+                        <li><a href="research/va.html">주요연구분야</a></li>
+                        <li><a href="#">융합서비스</a></li>
+                        <li><a href="#">핵심제품</a></li>
+                        <li><a href="good/cctv_info.html">조달우수제품</a></li>
+                        <li><a href="about/about.html">회사소개</a></li>
+                        <li><a href="#">고객지원</a></li>
+                        <li><a href="#">공지사항</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <ul class="language">
+                        <li><a href="#" class="active">KR</a></li>
+                        <li><a href="#">EN</a></li>
+                    </ul> <!-- language -->
+                    <div class="search"></div> <!-- search -->
+                    <div class="menu"></div> <!-- menu -->
+                </div>
+            </header> <!-- header -->
+            <div id="search">
+                <div class="close_btn"></div>
+                <form>
+                    <input type="text" id="search_txt" class="search_txt" placeholder="검색어를 입력해주세요." autofocus>
+                    <button></button>
+                </form>
+            </div> <!-- search -->
+            <div id="bg"></div> <!-- bg-->
+            <div id="mobile_nav">
+                <div class="btn"></div> <!-- nav btn -->
+                <ul class="category">
+                    <li>
+                        <p>주요연구분야</p>
+                        <ul class="dep1">
+                            <li>
+                                <a href="research/va.html">딥러닝기반 VA기술</a>
+                            </li>
+                            <li>
+                                <a href="research/radar.html">레이더센서</a>
+                            </li>
+                            <li>
+                                <a href="research/encryption.html">암호화기술</a>
+                            </li>
+                            <li>
+                                <a href="research/robot.html">로봇</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>융합서비스</p>
+                        <ul class="dep1">
+                            <li>
+                                <a href="#">무인교통감시서비스</a>
+                            </li>
+                            <li>
+                                <a href="#">영상분석서비스</a>
+                            </li>
+                            <li>
+                                <a href="#">영상보안서비스</a>
+                            </li>
+                            <li>
+                                <a href="#">로봇기반무인방범서비스</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>핵심제품</p>
+                        <ul class="dep1">
+                            <li>
+                                <a href="#">CUBE-HIDE</a>
+                            </li>
+                            <li>
+                                <a href="#">무인교통감시장치</a>
+                            </li>
+                            <li>
+                                <a href="#">AI유닛임베디드디바이스</a>
+                            </li>
+                            <li>
+                                <a href="#">ARVO</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>조달우수제품</p>
+                        <ul class="dep1">
+                            <li>
+                                <p>CCTV통신구간암호화</p>
+                                <ul class="dep2">
+                                    <li>
+                                        <a href="good/cctv_info.html">우수제품소개</a>
+                                    </li>
+                                    <li>
+                                        <a href="good/cctv_size.html">우수제품규격</a>
+                                    </li>
+                                    <li>
+                                        <a href="good/cctv_system.html">활용시스템</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>무인교통감시장치</p>
+                                <ul class="dep2">
+                                    <li>
+                                        <a href="#">우수제품소개</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">우수제품규격</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">활용시스템</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>회사소개</p>
+                        <ul class="dep1">
+                            <li>
+                                <a href="about/about.html">회사소개</a>
+                            </li>
+                            <li>
+                                <a href="#">CEO인사말</a>
+                            </li>
+                            <li>
+                                <a href="about/history.html">연혁</a>
+                            </li>
+                            <li>
+                                <a href="about/talent.html">인재상</a>
+                            </li>
+                            <li>
+                                <a href="about/organization.html">조직도</a>
+                            </li>
+                            <li>
+                                <a href="about/ci.html">CI소개</a>
+                            </li>
+                            <li>
+                                <a href="about/laboratory.html">부설연구소</a>
+                            </li>
+                            <li>
+                                <a href="#">인증현황</a>
+                            </li>
+                            <li>
+                                <a href="#">오시는길</a>
+                            </li>
+                            <li>
+                                <a href="about/business.html">주요사업</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>고객지원</p>
+                        <ul class="dep1">
+                            <li>
+                                <a href="#">다운로드</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#">문의사항</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>공지사항</p>
+                        <ul class="dep1">
+                            <li>
+                                <a href="#">세오뉴스</a>
+                            </li>
+                            <li>
+                                <a href="#">행사소식</a>
+                            </li>
+                            <li>
+                                <a href="#">채용공지</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul> <!-- category -->
+                <div class="news">
+                    <div class="title">
+                        <p>새로운 소식</p>
+                        <a href="#"></a>
+                    </div>
+                    <div class="list">
+                        <div class="list1">
+                            <img src="img/nav_news_1.jpg" alt="news_1">
+                            <ul>
+                                <li>특허등록</li>
+                                <li>
+                                    네트워크 기반 영상장비용<br>
+                                    플러그인 영상 암호화 시스템
+                                </li>
+                                <li>2018년 5월 14일</li>
+                            </ul>
+                        </div> <!-- list 1-->
+                        <div class="list2">
+                            <img src="img/nav_news_2.jpg" alt="news_2">
+                            <ul>
+                                <li>특허등록</li>
+                                <li>
+                                    네트워크 기반 영상장비용<br>
+                                    플러그인 영상 암호화 시스템
+                                </li>
+                                <li>2018년 5월 14일</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- news -->
+                <div class="nav_bottom">
+                    <ul>
+                        <li>
+                            <a href="#">개인정보처리방침</a>
+                        </li>
+                        <li>
+                            <a href="#">이메일무단수집거부</a>
+                        </li>
+                    </ul>
+                    <a href="#">PHAROS 바로가기</a>
+                </div> <!-- nav footer -->
+            </div> <!-- mobile nav -->
+            <div id="main">
+                <section id="banner" class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="banner banner_1 swiper-slide">
+                            <div class="txt_group">
+                                <p>SEO TECHNOLOGY</p>
+                                <h2>SEO TECHNOLOGY</h2>
+                                <p>
+                                    주식회사 세오는 딥 러닝, RADAR 센서, CCTV 암호화, 로봇 등<br>
+                                    차별화된 기술개발을 토대로<br>
+                                    다양한 서비스 및 혁신적인 제품을 제공합니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="banner banner_2 swiper-slide">
+                            <div class="txt_group">
+                                <p>SEO TECHNOLOGY</p>
+                                <h2>CCTV ENCRYPTION</h2>
+                                <p>
+                                    주식회사 세오는 딥 러닝, RADAR 센서, CCTV 암호화, 로봇 등<br>
+                                    차별화된 기술개발을 토대로<br>
+                                    다양한 서비스 및 혁신적인 제품을 제공합니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="banner banner_3 swiper-slide">
+                            <div class="txt_group">
+                                <p>SEO TECHNOLOGY</p>
+                                <h2>RADAR SENSOR</h2>
+                                <p>
+                                    주식회사 세오는 딥 러닝, RADAR 센서, CCTV 암호화, 로봇 등<br>
+                                    차별화된 기술개발을 토대로<br>
+                                    다양한 서비스 및 혁신적인 제품을 제공합니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="banner banner_4 swiper-slide">
+                            <div class="txt_group">
+                                <p>SEO TECHNOLOGY</p>
+                                <h2>ROBOT</h2>
+                                <p>
+                                    주식회사 세오는 딥 러닝, RADAR 센서, CCTV 암호화, 로봇 등<br>
+                                    차별화된 기술개발을 토대로<br>
+                                    다양한 서비스 및 혁신적인 제품을 제공합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div> <!-- banner wrapper -->
+                    <div class="newsroom">
+                        <h3>NEWSROOM</h3>
+                        <div class="newsroom_wrap">
+                            <div class="news_contents">
+                                <div class="news_items">
+                                    <a href="#">영상 기반 보행자 추돌 자동 검출 방법 및 이를 적용한 사물 인터넷 장치 특허출1 ...</a>
+                                    <a href="#">영상 기반 보행자 추돌 자동 검출 방법 및 이를 적용한 사물 인터넷 장치 특허출2 ...</a>
+                                    <a href="#">영상 기반 보행자 추돌 자동 검출 방법 및 이를 적용한 사물 인터넷 장치 특허출3 ...</a>
+                                </div>
+                            </div> <!-- news contents -->
+                            <div class="news_direc">
+                                <img src="img/news_direc_up_off.svg" alt="up" class="up">
+                                <img src="img/news_direc_down_off.svg" alt="down" class="down">
+                            </div> <!-- news direc-->
+                        </div> <!-- newsroom wrap-->
+                    </div> <!-- newsroom -->
+                </section> <!-- banner -->
+                <section id="skill" class="skill-container">
+                    <div class="title">
+                        <h3>
+                            영상을 기반으로<br>
+                            딥 러닝, RADAR 센서, CCTV 암호화,<br>
+                            로봇 기술을 연구 개발합니다.
+                        </h3>
+                        <a href="#">더 알아보기</a>
+                    </div>
+                    <div class="skill_list swiper-wrapper">
+                        <a href="research/va.html" class="skill_1 swiper-slide">
+                            <div class="txt">
+                                <p>01</p>
+                                <span>딥러닝기반 VA 기술</span>
+                            </div>
+                        </a>
+                        <a href="research/radar.html" class="skill_2 swiper-slide">
+                            <div class="txt">
+                                <p>02</p>
+                                <span>RADAR 센서</span>
+                            </div>
+                        </a>
+                        <a href="research/encryption.html" class="skill_3 swiper-slide">
+                            <div class="txt">
+                                <p>03</p>
+                                <span>CCTV 암호화 기술</span>
+                            </div>
+                        </a>
+                        <a href="research/robot.html" class="skill_4 swiper-slide">
+                            <div class="txt">
+                                <p>04</p>
+                                <span>로봇</span>
+                            </div>
+                        </a>
+                    </div>
+                </section> <!-- skill -->
+                <section id="fusion">
+                    <div class="title">
+                        <h3>
+                            다양한 기술을 융합하여<br>
+                            고객환경에 최적화된 서비스 제공을 통해<br>
+                            사회안전에 공헌하겠습니다.
+                        </h3>
+                    </div>
+                    <div class="fusion-container">
+                        <div class="fusion_list swiper-wrapper">
+                            <div class="fusion_1 swiper-slide">
+                                <div class="fusion_img"></div>
+                                <div class="fusion_desc">
+                                    <h4>무인교통감시장치</h4>
+                                    <p>교통취약지역에 산개적으로 설치되어있는 시설물 만으로 제한적인 안전관리 대응 능력을 세오의 “무인교통감시 서비스“ 적용을 통하여 현장에서 즉시 운전자 및 보행자 모두에게 즉각적인 안전관리 대응을 도와주며, 사고예방이 가능하도록 한 서비스 입니다.</p>
+                                    <a href="#">더 알아보기</a>
+                                </div>
+                            </div>
+                            <div class="fusion_2 swiper-slide">
+                                <div class="fusion_img"></div>
+                                <div class="fusion_desc">
+                                    <h4>딥러닝영상분석 서비스</h4>
+                                    <p>AI 딥러닝 유닛 기반의 “딥러닝영상분석 서비스”는 영상정보 및 센싱정보를 이용하여 복합이벤트, 시설물 이상 등의 이상징후를 판단하고 이상징후에 대해 신속하고 정확한 대응이 가능하도록 지원해주는 서비스를 제공합니다.</p>
+                                    <a href="#">더 일이보기</a>
+                                </div>
+                            </div>
+                            <div class="fusion_3 swiper-slide">
+                                <div class="fusion_img"></div>
+                                <div class="fusion_desc">
+                                    <h4>CCTV 영상암호화 서비스</h4>
+                                    <p>“CCTV 영상암호화 서비스는” 최근 CCTV 백도어 및 해킹의 피해사례가 증가함에 따라 실시간 CCTV영상을 수신하여 최적화 된 암호화 기술로 암호화 된 영상을 전송하도록 하게 하여 개인정보 및 산업 기밀의 피해를  방지 할 수 있도록 한 서비스 입니다.</p>
+                                    <a href="#">더 일이보기</a>
+                                </div>
+                            </div>
+                            <div class="fusion_4 swiper-slide">
+                                <div class="fusion_img"></div>
+                                <div class="fusion_desc">
+                                    <h4>로봇기반 방범 서비스</h4>
+                                    <p>육안 감시 공백으로 인한 관제 효율성이 저하되는 문제를 해결하기위해 세오의 “로봇기반 방범 서비스”를 적용하여 감시 공백을 최소화 하며, 고 위험군 장소에서도 안전감시가 가능한 서비스를 제공합니다.</p>
+                                    <a href="#">더 일이보기</a>
+                                </div>
+                            </div>
+                        </div> <!-- fusion list -->
+                        <div class="fusion-pagination"></div>
+                    </div> <!-- fusion container -->
+                </section> <!-- fusion -->
+                <section id="product">
+                    <div class="title">
+                        <h3>
+                            모두가 꿈꾸는 안전한 사회<br>
+                            세오의 제품이<br>
+                            그 꿈을 현실로 만듭니다.
+                        </h3>
+                    </div>
+                    <div class="product_list">
+                        <div class="product_1">
+                            <div class="img"></div>
+                            <div class="desc">
+                                <h4>딥러닝기반 지능형</h4>
+                                <p>영상분석 기술을 기반으로 다양한 안전취약지역 등에 적용하여 이상징후 발생 시 효율적 대처가 가능하도록 한 제품입니다.</p>
+                                <a href="#">더 알아보기</a>
+                            </div>
+                        </div>
+                        <div class="product_2">
+                            <div class="img"></div>
+                            <div class="desc">
+                                <h4>무인교통감시장치</h4>
+                                <p>인공지능 센서융합 일체형 무인교통감시장치로 다차선, 보행자검출 등 효율적인 교통단속이 가능한 제품입니다.</p>
+                                <a href="#">더 알아보기</a>
+                            </div>
+                        </div>
+                        <div class="product_3">
+                            <div class="img"></div>
+                            <div class="desc">
+                                <h4>CUBE-HIDE</h4>
+                                <p>해커와 제 3자로 인한 데이터 유출 시에도 영상정보를 확인 할 수 없도록 암호화 하는 장치 입니다.</p>
+                                <a href="#">더 알아보기</a>
+                            </div>
+                        </div>
+                        <div class="product_4">
+                            <div class="img"></div>
+                            <div class="desc">
+                                <h4>ARVO</h4>
+                                <p>실내 주행 기반 순찰, 안전점검 등을 통한 방범, 화재, 시설물관리 등 사고 예방이 가능한 방범로봇 입니다.</p>
+                                <a href="#">더 알아보기</a>
+                            </div>
+                        </div>
+                    </div>
+                </section> <!-- product -->
+                <section id="news">
+                    <div class="news_wrap">
+                        <div class="title">
+                            <h3>새로운 소식</h3>
+                            <a href="#"></a>
+                        </div> <!-- title -->
+                        <div class="list">
+                            <div class="list_1">
+                                <img src="img/footer_news_1.jpg" alt="news_1">
+                                <ul>
+                                    <li>특허등록</li>
+                                    <li>
+                                        네트워크 기반 영상장비용 플러그인 영상 암호화 시스템<br>
+                                        네트워크 기반 영상장비용 플러그인
+                                    </li>
+                                    <li>2018년 5월 14일</li>
+                                </ul>
+                            </div> <!-- list 1-->
+                            <div class="list_2">
+                                <img src="img/footer_news_2.jpg" alt="news_2">
+                                <ul>
+                                    <li>특허등록</li>
+                                    <li>
+                                        네트워크 기반 영상장비용 플러그인 영상 암호화 시스템<br>
+                                        네트워크 기반 영상장비용 플러그인
+                                    </li>
+                                    <li>2018년 5월 14일</li>
+                                </ul>
+                            </div>
+                        </div> <!-- list -->
+                    </div> <!-- news wrap -->
+                </section> <!-- news -->
+            </div> <!-- main -->
+            <footer>
+                <div class="footer_wrap">
+                    <div class="footer_desc">
+                        <img src="img/footer_logo.svg" alt="footer_logo">
+                        <h4>주식회사 세오</h4>
+                        <ul>
+                            <li>03925 경기도 안양시 동안구 흥안대로 427번길 16, 801호</li>
+                            <li>대표이사 : 이형각, 김호군</li>
+                            <li>전화 : <span>1522-2282</span></li>
+                            <li>팩스 : <span>031-424-2346</span></li>
+                            <li>사업자등록증 : <span>416-81-44274</span></li>
+                        </ul>
+                        <p>&copy; SEO Corp.</p>
+                    </div> <!-- footer desc -->
+                    <ul class="footer_nav">
+                        <li>
+                            <p>주요연구분야</p>
+                            <ul>
+                                <li><a href="research/va.html">딥러닝기반 VA기술</a></li>
+                                <li><a href="research/radar.html">레이더센서</a></li>
+                                <li><a href="research/encryption.html">암호화기술</a></li>
+                                <li><a href="research/robot.html">로봇</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>융합서비스</p>
+                            <ul>
+                                <li><a href="#">무인교통감지서비스</a></li>
+                                <li><a href="#">영상분석서비스</a></li>
+                                <li><a href="#">영상보안서비스</a></li>
+                                <li><a href="#">로봇기반방범</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>핵심제품</p>
+                            <ul>
+                                <li><a href="#">CUBE-HIDE</a></li>
+                                <li><a href="#">무인교통감시장치</a></li>
+                                <li><a href="#">AI유닛임베디드디바이스</a></li>
+                                <li><a href="#">ARVO</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>조달우수제품</p>
+                            <ul>
+                                <li><a href="good/cctv_info.html">CCTV통신구간암호화</a></li>
+                                <li><a href="#">무인교통감시장치</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>회사소개</p>
+                            <ul>
+                                <li><a href="about/about.html">회사소개</a></li>
+                                <li><a href="#">CEO인사말</a></li>
+                                <li><a href="about/history.html">연혁</a></li>
+                                <li><a href="about/talent.html">인재상</a></li>
+                                <li><a href="about/organization.html">조직도</a></li>
+                                <li><a href="about/ci.html">CI소개</a></li>
+                                <li><a href="about/laboratory.html">부설연구소</a></li>
+                                <li><a href="#">인증현황</a></li>
+                                <li><a href="#">오시는길</a></li>
+                                <li><a href="about/business.html">주요사업</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>고객지원</p>
+                            <ul>
+                                <li><a href="#">다운로드</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">문의사항</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>공지사항</p>
+                            <ul>
+                                <li><a href="#">세오뉴스</a></li>
+                                <li><a href="#">행사소식</a></li>
+                                <li><a href="#">채용공지</a></li>
+                            </ul>
+                        </li>
+                    </ul> <!-- footer nav-->
+                </div> <!-- footer wrap -->
+            </footer> <!-- footer -->
+            <div id="scroll_top">TOP</div>
+        </div> <!-- container -->
+
+        <script>
+            // Swiper plugin
+            var swiper = new Swiper('.swiper-container', {
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction:false
+                    },
+                    speed: 1500,
+                    loop: true,
+                    effect: 'fade'
+                }),
+                skill = new Swiper('.skill-container', {
+                    slidesPerView:'auto',
+                    allowTouchMove: true,
+                    breakpointsInverse: true,
+                    breakpoints: {
+                        1380: {
+                            allowTouchMove: false
+                        }
+                    }
+                }),
+                fusion = new Swiper('.fusion-container', {
+                    pagination: {
+                        el: '.fusion-pagination',
+                        clickable: true
+                    }
+                });
+
+            // dotdotdot plugin
+            $('.newsroom a').dotdotdot();
+        </script>
+    </body>
+</html>
