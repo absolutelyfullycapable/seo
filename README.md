@@ -25,4 +25,4 @@
 - 2021.01 - 2021.03
 
 ### degree of participation
-- 70% (Publishing)
+- 100% (available pages publishing)
