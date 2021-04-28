@@ -78,7 +78,7 @@ img { vertical-align:top; }
     /* banner */
     #banner { padding:0 24px; box-sizing:border-box; height:198px; background:url(../img/cctv_banner@2x.jpg) no-repeat 50% 50%; background-size:cover; position:relative; }
     #banner::after { content:''; display:inline-block; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.4); position:absolute; top:0; left:0; }
-        #banner h2 { font-size:28px; color:#fff; position:absolute; left:50%; bottom:65px; transform:translateX(-50%); z-index:1; }
+        #banner h2 { width:100%; text-align:center; font-size:28px; color:#fff; position:absolute; left:50%; bottom:65px; transform:translateX(-50%); z-index:1; }
         #banner .tap { width:100%; height:36px; position:absolute; bottom:0; left:0; z-index:1; }
         #banner .tap::after { content:''; display:block; clear:both; }
             #banner .tap_menu { float:left; width:calc(100% / 3); height:100%; background-color:rgba(0, 0, 0, 0.8); line-height:36px; font-size:12px; font-weight:bold; text-align:center; cursor:pointer; }
